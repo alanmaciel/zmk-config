@@ -93,8 +93,8 @@
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │PROFILE 4 │  VOL UP  │ PAUSEMUSIC          │BOOTLOADER│
           &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &bt BT_SEL 4 &kp C_VOL_UP &kp C_P &trans    &bootloader
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │  VOL DOWN│ PREVSONG │          │          │
-            &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &kp C_VOL_DOWN &kp C_PREV &trans &trans
+        //│          │          │          │ CLEAR BT │PROFILE 2 │   │ TOGGLEOUT│ VOL DOWN │ PREVSONG │          │          │
+            &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &out OUT_TOG &kp C_VOL_DOWN &kp C_PREV &trans &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
